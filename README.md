@@ -4,11 +4,11 @@ Ein Programm zum speichern von Lerneinheiten.
 
 ## Was das Programm kann
 
-- lerneinheiten je nach fach, startzeit, endzeit speichern
-- gespeicherte Lerneinheiten anzeigen
+- Lerneinheiten je nach Fach, Startzeit, Endzeit speichern
+- Gespeicherte Lerneinheiten anzeigen
 - Einträge bearbeiten und löschen
-- gesamte Lernzeit für jedes fach anzeigen
-- fehler (falsche eingaben) erkennen und widergeben
+- Gesamte Lernzeit für jedes Fach anzeigen
+- Fehler (falsche Eingaben) erkennen und wiedergeben
 - Daten in einer SQLite-Datenbank speichern
 
 ## Verwendet

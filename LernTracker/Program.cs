@@ -45,7 +45,7 @@ static void MenueAnzeigen()
     Console.WriteLine("3 - Lernzeit bearbeiten");
     Console.WriteLine("4 - Lernzeit löschen");
     Console.WriteLine("5 - Lernzeit pro Fach anzeigen");
-    Console.WriteLine("0 - PRogramm beenden");
+    Console.WriteLine("0 - Programm beenden");
     Console.Write("Auswahl: ");
 }
 
@@ -106,7 +106,7 @@ static Lerneinheit LerneinheitEinlesen()
 {
     return new Lerneinheit
     {
-        Fach = ConsoleInput.PflichtTextLesen("LErnfach: "),
+        Fach = ConsoleInput.PflichtTextLesen("Lernfach: "),
         Startzeit = ConsoleInput.DatumLesen("Startzeit"),
         Endzeit = ConsoleInput.DatumLesen("Endzeit"),
         Notiz = ConsoleInput.OptionalenTextLesen("Notiz (optional); ")
